@@ -6,12 +6,23 @@ package com.myspace.test_hook;
 
 public class emp implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public emp() {
-    }
+	private java.lang.Integer empid;
 
+	public emp() {
+	}
 
+	public java.lang.Integer getEmpid() {
+		return this.empid;
+	}
 
+	public void setEmpid(java.lang.Integer empid) {
+		this.empid = empid;
+	}
+
+	public emp(java.lang.Integer empid) {
+		this.empid = empid;
+	}
 
 }
