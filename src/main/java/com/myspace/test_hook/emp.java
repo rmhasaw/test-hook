@@ -11,6 +11,7 @@ public class emp implements java.io.Serializable {
 	private java.lang.Integer empid;
 
 	public emp() {
+	    
 	}
 
 	public java.lang.Integer getEmpid() {
