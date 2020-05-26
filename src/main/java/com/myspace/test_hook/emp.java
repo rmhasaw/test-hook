@@ -18,7 +18,7 @@ public class emp implements java.io.Serializable {
 	}
 
 	public void setEmpid(java.lang.Integer empid) {
-		this.empid = empid;
+		this.empid = empid; 
 	}
 
 	public emp(java.lang.Integer empid) {
